@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kiteium",
+  "version": "${version}",
+  "name": "Kiteium",
+  "description": "An unofficial port of Starlight - Rewrites the light engine to fix lighting performance and lighting errors",
+  "authors": [
+    "Arnav-MC"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/kiteium"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/kiteium/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "starlight.mixins.json"
+  ],
+  "accessWidener" : "starlight.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
